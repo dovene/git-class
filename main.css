@@ -1,0 +1,138 @@
+/*
+  SMALL SCREEN
+*/
+
+@media all and (max-width: 950px){
+
+  #portrait {
+    display: none;
+  }
+
+  .boxLeftCorps{
+    display: none;
+  }
+
+  .icones {
+    max-width: 50px;
+    height: auto;
+  }
+}
+
+/*
+  GENERAL
+*/
+
+body {
+  font-family: 'Montserrat','Liberation Sans';
+  width: auto;
+}
+
+/*
+  HEADER
+*/
+
+.header {
+  display: flex;
+  background-color: #7451eb;
+  padding: 3% 10% 0 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-left: 2%;
+}
+
+.header p {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.bg_vert_1 {
+  background-color: #0ceda3;
+  color: #003668;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding: 5px 8px;
+  border: solid 2px #7451eb;
+}
+
+.boxRightHeader img {
+  height: 400px;
+  width: 400px;
+  padding-left: 5%;
+}
+
+/*
+  CORPS
+*/
+
+.corps {
+  display: flex;
+  color: #003668;
+  padding: 0 10% 0 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxLeftCorps {
+  margin: auto 15% auto 0;
+}
+
+.sigle {
+  font-weight: 500;
+  font-size: 900%;
+  margin: auto;
+}
+
+.bg_vert_2 {
+  background-color: #0ceda3;
+  color: #003668;
+  padding-right: 8px;
+  
+}
+
+/*
+  FOOTER
+*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 5% 10%;
+  justify-content: center;
+  background-color:#003668;
+}
+
+.footer h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 1px;
+}
+
+.footer p {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 1px;
+  margin-bottom: 3%;
+}
+
+.bg_vert_3 {
+  background-color: #0ceda3;
+  color: #003668;
+  padding: 2px 2px 2px 0;
+}
+
+.footer img {
+  width: 75px;
+  margin-right: 20px;
+}
